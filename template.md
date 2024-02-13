@@ -31,11 +31,10 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.
 :::
 ::: {.column width="50%"}
 
-* Level 1
-   * Level 2
-      * Level 3
-         * Level 4
-            * Level 5
+### Foo
+#### Bar
+##### Fizz
+###### Bang
 
 :::
 ::::::::::::::
@@ -72,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.
 :::
 ::: {.column width="50%"}
 
-![Alt text looks like this](diagram.svg){width=10%}
+![Alt text looks like this](diagram.svg){width=25%}
 
 :::
 ::::::::::::::
@@ -88,3 +87,14 @@ Alice -> Charlie: Greetings!
 @enduml
 -->
 :::
+
+## Code
+Python:
+```python
+s = "hello world!"
+print s
+```
+Something else:
+```
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.
+```
