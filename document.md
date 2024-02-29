@@ -5,7 +5,6 @@ author:
 - Johnny Tran
 date: 2024
 keywords: [document]
-monofont: SourceCodePro.otf
 lang: en-US
 version: 0.1.0
 ---
