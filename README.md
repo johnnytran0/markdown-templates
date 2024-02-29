@@ -9,19 +9,19 @@
 ## Getting Started
 ### Generate PlantUML diagrams
 ```bash
-plantuml -svg template.md
+plantuml -svg document.md
 ```
 
 ### PDF
 ```bash
-pandoc template.md -o template.pdf \
+pandoc document.md -o output.pdf \
   --pdf-engine=xelatex \
   -V geometry=margin=1in
 ```
 
 #### fonts
 ```bash
-pandoc template.md -o template2.pdf \
+pandoc document.md -o output.pdf \
   --pdf-engine=xelatex \
   -V geometry=margin=1in \
   -V mainfont="Source Serif 4"
@@ -38,7 +38,7 @@ fc-list --format="%{family[0]}\n" | sort | uniq
 
 #### Word
 ```bash
-pandoc template.md -o template.docx \
+pandoc document.md -o output.docx \
   --highlight-style tango \
   --reference-doc=.pandoc/reference.docx
 ```
@@ -46,7 +46,7 @@ pandoc template.md -o template.docx \
 
 #### PowerPoint
 ```bash
-pandoc template.md -o template.pptx \
+pandoc pptx.md -o output.pptx \
   --reference-doc=.pandoc/reference.pptx
 ```
 * https://pandoc.org/MANUAL.html#powerpoint-layout-choice
