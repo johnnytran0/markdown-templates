@@ -8,7 +8,13 @@ jobs:
       - run: mkdir -p output
       - uses: docker://pandoc/extra:3.1
         with:
-          args: document.md -o output/output.pdf --pdf-engine=xelatex  -V geometry=margin=1in
+          args: document.md -o output/document.pdf --pdf-engine=xelatex  -V geometry=margin=1in
+      - uses: docker://pandoc/extra:3.1
+        with:
+          args: document.md -o output/document.docx --highlight-style tango --reference-doc=.pandoc/reference.docx
+      - uses: docker://pandoc/extra:3.1
+        with:
+          args: document.md -o output/document.pptx --highlight-style tango --reference-doc=.pandoc/reference.pptx
       - uses: actions/upload-artifact@v3
         with:
           name: output
