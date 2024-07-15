@@ -5,7 +5,6 @@ author:
 - Johnny Tran
 date: 2024
 keywords: [document]
-monofont: Source Code Pro
 lang: en-US
 version: 0.1.0
 ---
@@ -24,7 +23,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 1. Level 5
 * Level 6
 
-## Tables and Diagrams
+## Tables
+
+
 | Heading | Heading | Heading |
 | --- | --- | --- |
 | Cell | Cell | Cell |
@@ -32,8 +33,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | Cell | Cell | Cell |
 | Cell | Cell | Cell |
 | Cell | Cell | Cell |
-_Table 1: Multicellular_
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+<!-- _Table 1: Multicellular_ -->
 
+## Diagrams
 ![Diagram 1. Alt text looks like this](diagram.svg)
 
 ::: notes

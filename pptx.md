@@ -5,7 +5,7 @@ author:
 - Johnny Tran
 date: 2024
 keywords: [powerpoint]
-monofont: Source Code Pro
+# monofont: Source Code Pro
 lang: en-US
 version: 0.1.0
 slide-level: 2
