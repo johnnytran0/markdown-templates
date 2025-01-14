@@ -58,3 +58,22 @@ pandoc pptx.md -o output.pptx \
   * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
   * [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
   * :notebook_with_decorative_cover: [ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet?tab=readme-ov-file#table-of-contents)
+
+## Diagrams
+
+### PlantUML
+* [PlantUML Reference Guide](https://plantuml.com/guide)
+[The Hitchhiker's Guide to PlantUML](https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html)
+* https://plantuml.com/stdlib
+* Sprites
+  * https://github.com/davidholsgrove/gcp-icons-for-plantuml
+  * https://github.com/milo-minderbinder/AWS-PlantUML
+  * https://github.com/plantuml-stdlib/gilbarbara-plantuml-sprites
+* Templates
+  * https://github.com/dcasati/kubernetes-PlantUML/tree/master/samples
+  * https://github.com/awslabs/aws-icons-for-plantuml
+  * https://github.com/plantuml-stdlib/Azure-PlantUML
+* https://github.com/Voronenko/vscode-plantuml-stdlib-snippets?tab=readme-ov-file
+
+### Logos
+* https://github.com/gilbarbara/logos
